@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="HOME.CSS">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top"  style="background-color: #86efad;">
+      <div class="container-fluid">
+        <a class="navbar-brand ms-5 ps-5" href="#">
+          <img src="portfolio logo.png" alt="Logo" height="45">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item active">
+              <a class="nav-link me-2" href="HOME.HTML">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link me-2" href="#About">About me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link me-2" href="#my-portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact-me">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+</header>
+
+    <!-- Hero Section -->
+      <section class="hero">
+        
+          <div class="hero-image">
+            <img src="https://tinyurl.com/ypefv5y6" alt="my image">
+            <div class="hero-text">
+              <h1>  Ojukwu Stanley</h1>
+              <p>A web developer</p>
+              <a href="#contact-me"><button>Hire me</button></a>
+            </div>
+          </div>
+      </section>
+
+      <!-- About me -->
+      <p id="About"></p>
+      <section class="About-me-cont">
+        <div class="About-me">
+          <p class="Abt">About me</p>
+          <p class="Abt-me"></p>
+        </div>
+      </section>
+
+
+      <!-- what i do section -->
+      <section class="self-cont">
+        <div class="grid-container">
+          <div class="wd">
+            <h3>I design professional & beautiful websites</h3>
+          </div>
+
+          <div class="wd-description">
+            <p class="wd-1">With years of experience in graphic and web design I have mastered the skills of understanding client requirements according to the latest trends. I have worked with businesses from different niches so you can rely on me for yours.</p>
+            <br>
+            <p class="wd-1 wd-2"> I’ve spent most of these years working across different areas of design like front-end development, landing pages, email design, app UI/UX, to my current role designing products for mobile platforms. Having worked on various projects that are already live, I can help you with the best possible suggestions and ideas that we can proceed with. With me, you aren’t forced to accept anything. I give you a variety of options we can work on together</p>
+            <strong>Read More</strong>
+          </div>
+
+          <div class="wd-image">
+            <div class="wd-img-box">
+              <img src="https://tinyurl.com/ynhnuk2e" alt="description ">
+            </div>
+          </div>
+        </div>        
+      </section>
+
+      
+
+      <!-- what services i provide -->
+
+      <section class="services-section">
+        <div class="services-title"><h1>What Services I'm Providing</h1></div>
+        <div class="services-note">I offer a range of services to meet your web development and design needs.</div>
+
+        <div class="service-box">
+            <div class="box">
+                <i class="fas fa-paint-brush"></i>
+                <div class="box-title">UI/UX Design</div>
+                <div class="box-note">Crafting user-centric and visually appealing designs for a seamless experience.</div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-bullhorn"></i>
+                <div class="box-title">Digital Marketing</div>
+                <div class="box-note">Strategic digital marketing solutions to boost your online presence and reach.</div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-code"></i>
+                <div class="box-title">Web Development</div>
+                <div class="box-note">Building responsive and dynamic websites tailored to your business needs.</div>
+            </div>
+        </div>
+        <p id="my-portfolio"></p>
+    </section>
+
+    <!-- carousel portfolio -->
+
+    <div class="container mt-4">
+      <div class="row">
+          <div class="col-md-8 offset-md-2 text-center">
+              <h1> Portfolio</h1>
+              <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, deserunt porro excepturi delectus omnis nisi quibusdam! Nemo magni aliquid officia consequuntur aut iusto laborum mollitia, expedita hic suscipit commodi dolore?.</p>
+          </div>
+      </div>
+  
+      <div id="portfolioCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <img src="https://tinyurl.com/yp62tws7" class="d-block w-100" alt="Image 1">
+              </div>
+              <div class="carousel-item">
+                  <img src="https://tinyurl.com/ynejc48h" class="d-block w-100" alt="Image 2">
+              </div>
+              <div class="carousel-item">
+                <img src="https://tinyurl.com/ymy2sdhe" class="d-block w-100" alt="Image 3">
+            </div>
+            <div class="carousel-item">
+              <img src="https://tinyurl.com/ywsvdxvq" class="d-block w-100" alt="Image 4">
+          </div>
+              <!-- Add more carousel items as needed -->
+          </div>
+  
+          <button class="carousel-control-prev" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+          </button>
+      </div>
+  </div>
+  <hr>
+  
+
+    <!-- contact -->
+  <p id="contact-me"></p>
+    <section class="contain">
+      <div class="contain-1">
+        <h2>Contact Me</h2>
+        <form action="#" method="post">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+      </div>
+  </section>
+
+  <!-- footer -->
+
+  <footer>
+    <img src="portfolio logo.png" alt=" Logo" class="footer-logo">
+    
+    <div class="footer-nav">
+      <a href="#">Home</a>
+      <a href="#About">About me</a>
+      <a href="#my-portfolio">Portfolio</a>
+      <a href="#contact-me">Contact</a>
+    </div>
+
+    <a href="#contact-me" class="hire-me-button">Hire Me</a>
+
+    <div class="social-icons">
+      <a href="https://tinyurl.com/yozbufwv" target="_blank"><i class="fab fa-facebook"></i></a>
+      <a href="https://tinyurl.com/yukmwmzh" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="https://tinyurl.com/ywqba3tz" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://tinyurl.com/ynmm9ju4" target="_blank"><i class="fab fa-instagram"></i></a>
+    </div>
+
+    <p>&copy; 2023 Ojukwu Stanley. All Rights Reserved.</p>
+  </footer>
+
+  <script src="portfolio.js"></script>
+
+  <!-- Bootstrap JS and Popper.js (required for Bootstrap JavaScript components) -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
